@@ -1,4 +1,5 @@
 {
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/index.php",
@@ -6,19 +7,15 @@
       "permanent": true
     },
     {
-      "source": "/about.php",
-      "destination": "/about",
-      "permanent": true
-    },
-    {
-      "source": "/contact.php",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
       "source": "/(.*).php",
       "destination": "/$1",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
