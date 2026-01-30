@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://incorplusventure.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://incorplusventure.com/services</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://incorplusventure.com/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://incorplusventure.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://incorplusventure.com/faq</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url><loc>https://incorplusventure.com/company-incorporation</loc><priority>0.9</priority></url>
+  <url><loc>https://incorplusventure.com/gst-registration</loc><priority>0.9</priority></url>
+  <url><loc>https://incorplusventure.com/fssai-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/trademark-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/msme-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/dpiit-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/partnership-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/llp-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/opc-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/pvt-ltd-registration</loc><priority>0.9</priority></url>
+  <url><loc>https://incorplusventure.com/public-limited-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/section-8-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/trust-registration</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/society-registration</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/proprietorship-registration</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/import-export-registration</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/iso-registration</loc><priority>0.7</priority></url>
+
+  <url><loc>https://incorplusventure.com/itr-filing</loc><priority>0.9</priority></url>
+  <url><loc>https://incorplusventure.com/startup-compliance</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/proprietorship-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/opc-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/llp-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/pvt-ltd-compliance</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/roc-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/tds-filing-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/section-8-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/gst-compliance</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/accounting-compliance</loc><priority>0.7</priority></url>
+  <url><loc>https://incorplusventure.com/funding</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/project-report</loc><priority>0.7</priority></url>
+
+  <url><loc>https://incorplusventure.com/web-development</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/mobile-app-development</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/digital-marketing</loc><priority>0.8</priority></url>
+  <url><loc>https://incorplusventure.com/logo-design</loc><priority>0.6</priority></url>
+  <url><loc>https://incorplusventure.com/graphic-design</loc><priority>0.6</priority></url>
+
+  <url><loc>https://incorplusventure.com/privacy-policy</loc><priority>0.3</priority></url>
+  <url><loc>https://incorplusventure.com/terms</loc><priority>0.3</priority></url>
+</urlset>

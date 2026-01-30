@@ -1,16 +1,62 @@
 {
+  "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/index.php", "destination": "/", "permanent": true },
     {
-      "source": "/index.php",
-      "destination": "/",
+      "source": "/services.php",
+      "destination": "/services",
+      "permanent": true
+    },
+    { "source": "/funding.php", "destination": "/funding", "permanent": true },
+    {
+      "source": "/company-incorporation.php",
+      "destination": "/company-incorporation",
       "permanent": true
     },
     {
-      "source": "/(.*).php",
-      "destination": "/$1",
+      "source": "/gst-registration.php",
+      "destination": "/gst-registration",
       "permanent": true
-    }
+    },
+    {
+      "source": "/itr-filing.php",
+      "destination": "/itr-filing",
+      "permanent": true
+    },
+    {
+      "source": "/fssai-registration.php",
+      "destination": "/fssai-registration",
+      "permanent": true
+    },
+    {
+      "source": "/trademark-registration.php",
+      "destination": "/trademark-registration",
+      "permanent": true
+    },
+    {
+      "source": "/msme-registration.php",
+      "destination": "/msme-registration",
+      "priority": true
+    },
+    { "source": "/contact.php", "destination": "/contact", "permanent": true },
+    { "source": "/about.php", "destination": "/about", "permanent": true },
+    {
+      "source": "/dpiit-registration.php",
+      "destination": "/dpiit-registration",
+      "permanent": true
+    },
+    {
+      "source": "/pvt-ltd-registration.php",
+      "destination": "/pvt-ltd-registration",
+      "permanent": true
+    },
+    {
+      "source": "/web-development.php",
+      "destination": "/web-development",
+      "permanent": true
+    },
+    { "source": "/(.*).php", "destination": "/$1", "permanent": true }
   ],
   "rewrites": [
     {
