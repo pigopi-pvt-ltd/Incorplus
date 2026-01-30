@@ -187,8 +187,7 @@
       "destination": "/privacy-policy",
       "permanent": true
     },
-    { "source": "/terms.php", "destination": "/terms", "permanent": true },
-    { "source": "/(.*).php", "destination": "/$1", "permanent": true }
+    { "source": "/terms.php", "destination": "/terms", "permanent": true }
   ],
   "rewrites": [
     {
