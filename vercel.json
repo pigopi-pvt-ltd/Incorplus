@@ -37,7 +37,7 @@
     {
       "source": "/msme-registration.php",
       "destination": "/msme-registration",
-      "priority": true
+      "permanent": true
     },
     { "source": "/contact.php", "destination": "/contact", "permanent": true },
     { "source": "/about.php", "destination": "/about", "permanent": true },
@@ -47,8 +47,113 @@
       "permanent": true
     },
     {
+      "source": "/project-report.php",
+      "destination": "/project-report",
+      "permanent": true
+    },
+    {
+      "source": "/partnership-registration.php",
+      "destination": "/partnership-registration",
+      "permanent": true
+    },
+    {
+      "source": "/llp-registration.php",
+      "destination": "/llp-registration",
+      "permanent": true
+    },
+    {
+      "source": "/opc-registration.php",
+      "destination": "/opc-registration",
+      "permanent": true
+    },
+    {
       "source": "/pvt-ltd-registration.php",
       "destination": "/pvt-ltd-registration",
+      "permanent": true
+    },
+    {
+      "source": "/public-limited-registration.php",
+      "destination": "/public-limited-registration",
+      "permanent": true
+    },
+    {
+      "source": "/section-8-registration.php",
+      "destination": "/section-8-registration",
+      "permanent": true
+    },
+    {
+      "source": "/trust-registration.php",
+      "destination": "/trust-registration",
+      "permanent": true
+    },
+    {
+      "source": "/society-registration.php",
+      "destination": "/society-registration",
+      "permanent": true
+    },
+    {
+      "source": "/proprietorship-registration.php",
+      "destination": "/proprietorship-registration",
+      "permanent": true
+    },
+    {
+      "source": "/import-export-registration.php",
+      "destination": "/import-export-registration",
+      "permanent": true
+    },
+    {
+      "source": "/iso-registration.php",
+      "destination": "/iso-registration",
+      "permanent": true
+    },
+    {
+      "source": "/startup-compliance.php",
+      "destination": "/startup-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/proprietorship-compliance.php",
+      "destination": "/proprietorship-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/opc-compliance.php",
+      "destination": "/opc-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/llp-compliance.php",
+      "destination": "/llp-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/pvt-ltd-compliance.php",
+      "destination": "/pvt-ltd-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/roc-compliance.php",
+      "destination": "/roc-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/tds-filing-compliance.php",
+      "destination": "/tds-filing-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/section-8-compliance.php",
+      "destination": "/section-8-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/gst-compliance.php",
+      "destination": "/gst-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/accounting-compliance.php",
+      "destination": "/accounting-compliance",
       "permanent": true
     },
     {
@@ -56,6 +161,33 @@
       "destination": "/web-development",
       "permanent": true
     },
+    {
+      "source": "/mobile-app-development.php",
+      "destination": "/mobile-app-development",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing.php",
+      "destination": "/digital-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/logo-design.php",
+      "destination": "/logo-design",
+      "permanent": true
+    },
+    {
+      "source": "/graphic-design.php",
+      "destination": "/graphic-design",
+      "permanent": true
+    },
+    { "source": "/faq.php", "destination": "/faq", "permanent": true },
+    {
+      "source": "/privacy-policy.php",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    { "source": "/terms.php", "destination": "/terms", "permanent": true },
     { "source": "/(.*).php", "destination": "/$1", "permanent": true }
   ],
   "rewrites": [
