@@ -48,6 +48,7 @@ import DigitalMarketing from "./pages/DigitalMarketing"
 import LogoDesign from "./pages/LogoDesign"
 import GraphicDesign from "./pages/GraphicDesign"
 import TermsAndConditions from "./Components/TermsAndConditionsPage/TermsAndConditions"
+import Pricing from "./pages/Pricing"
 // import { Home } from "lucide-react";
 
 function App() {
@@ -100,6 +101,10 @@ function App() {
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/pricing",
+          element: <Pricing />,
         },
         {
           path: "/dpiit-registration",

@@ -143,10 +143,13 @@ const Navbar = () => {
                   Contact
                 </NavLink>
                 <NavLink to="/faq" className={navLinkClasses}>
-                  Faq
+                  FAQ
                 </NavLink>
                 <NavLink to="/about" className={navLinkClasses}>
                   About
+                </NavLink>
+                <NavLink to="/pricing" className={navLinkClasses}>
+                    Pricing
                 </NavLink>
                 <button
                   onClick={() => setIsSearchOpen(true)}
