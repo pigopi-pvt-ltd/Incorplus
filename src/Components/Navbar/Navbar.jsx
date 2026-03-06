@@ -381,29 +381,38 @@ const Navbar = () => {
                             </nav>
 
                             {/* Drawer Footer */}
-                            <div className="p-6 border-t border-slate-100 dark:border-slate-800 space-y-4">
+                            <div className="p-6 border-t border-slate-100 dark:border-slate-800 flex flex-col gap-3">
+                                {/* Primary Action: Get Started */}
                                 <button
                                     onClick={() => {
                                         closeMenu()
                                         setIsOpenModal(true)
                                     }}
-                                    className="w-full bg-blue-600 text-white py-3.5 rounded-xl font-bold text-sm shadow-lg shadow-blue-500/20"
+                                    className="w-full bg-blue-600 text-white py-4 rounded-2xl font-bold text-sm shadow-lg shadow-blue-500/20 active:scale-[0.98] transition-all"
                                 >
                                     Get Started
                                 </button>
-                                <div className="flex justify-center gap-4 text-slate-400">
+
+                                {/* Secondary Action: HRMS (Matched Width) */}
+                                <a
+                                    href="https://hrms-incorp.pigo-pi.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl border-2 border-blue-100 dark:border-slate-800 bg-blue-50/50 dark:bg-slate-900/50 text-blue-600 dark:text-blue-400 active:scale-[0.98] active:bg-blue-100 transition-all"
+                                >
                                     <span className="material-symbols-outlined text-xl">
-                                        call
+                                        dashboard_customize
                                     </span>
-                                    <span className="material-symbols-outlined text-xl">
-                                        mail
-                                    </span>
-                                    <span className="material-symbols-outlined text-xl">
-                                        share
-                                    </span>
+                                    <span className="text-sm font-bold">HRMS Dashboard</span>
+                                </a>
+
+                                {/* Social Icons */}
+                                <div className="flex justify-center gap-6 pt-4 text-slate-400">
+                                    <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">call</span>
+                                    <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">mail</span>
+                                    <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">share</span>
                                 </div>
-                            </div>
-                        </motion.div>
+                            </div>                        </motion.div>
                     </>
                 )}
             </AnimatePresence>
