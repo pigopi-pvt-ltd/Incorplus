@@ -240,7 +240,7 @@ const Navbar = () => {
                             className="hidden lg:flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-bold px-3 py-2 transition-all"
                         >
                             <span className="material-symbols-outlined text-xl">dashboard_customize</span>
-                            HRMS
+                            Login
                         </a>
 
 
