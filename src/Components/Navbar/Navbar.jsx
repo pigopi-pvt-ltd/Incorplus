@@ -237,7 +237,7 @@ const Navbar = () => {
                             href="https://hrms-incorp.pigo-pi.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hidden lg:flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-bold px-3 py-2 transition-all"
+                            className="hidden md:flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-bold px-3 py-2 transition-all"
                         >
                             <span className="material-symbols-outlined text-xl">dashboard_customize</span>
                             Login
@@ -412,7 +412,8 @@ const Navbar = () => {
                                     <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">mail</span>
                                     <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">share</span>
                                 </div>
-                            </div>                        </motion.div>
+                            </div>        
+                        </motion.div>
                     </>
                 )}
             </AnimatePresence>
