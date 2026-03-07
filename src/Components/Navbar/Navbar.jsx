@@ -403,7 +403,7 @@ const Navbar = () => {
                                     <span className="material-symbols-outlined text-xl">
                                         dashboard_customize
                                     </span>
-                                    <span className="text-sm font-bold">HRMS Dashboard</span>
+                                    <span className="text-sm font-bold">Login</span>
                                 </a>
 
                                 {/* Social Icons */}
