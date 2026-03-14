@@ -349,6 +349,13 @@ const Navbar = () => {
                                     Services
                                 </NavLink>
                                 <NavLink
+                                    to="/pricing"
+                                    className={mobileLinkClasses}
+                                    onClick={closeMenu}
+                                >
+                                    <span className="material-symbols-outlined text-lg opacity-70">payments</span> Pricing
+                                </NavLink>
+                                <NavLink
                                     to="/contact"
                                     className={mobileLinkClasses}
                                     onClick={closeMenu}
@@ -412,7 +419,7 @@ const Navbar = () => {
                                     <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">mail</span>
                                     <span className="material-symbols-outlined text-xl cursor-pointer hover:text-blue-500 transition-colors">share</span>
                                 </div>
-                            </div>        
+                            </div>
                         </motion.div>
                     </>
                 )}
