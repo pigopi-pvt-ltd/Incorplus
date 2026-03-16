@@ -25,7 +25,7 @@ const Pricing = () => {
       name: "Growth",
       id: "growth",
       icon: Rocket,
-      price: "40K",
+      price: "45K",     //earlier it was 40k
       description: "Comprehensive support for expanding businesses.",
       color: "indigo",
       popular: true,
@@ -42,7 +42,8 @@ const Pricing = () => {
       name: "Premium",
       id: "premium",
       icon: Crown,
-      price: "1.2L",
+      // price: "1.2L",
+      price: "95K",
       description: "All-in-one elite startup ecosystem setup.",
       color: "slate",
       benefits: [
