@@ -1,10 +1,11 @@
-import React, { useState } from "react"
-import { motion } from "framer-motion"
-import ConsultationModal from "../CommonComponents/ConsultationModal"
-import GST from "../../assets/GST.jpg"
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import ConsultationModal from "../CommonComponents/ConsultationModal";
+import GST from "../../assets/GST.jpg";
+import { ExternalLink } from "lucide-react";
 
 const ProjectReportHero = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
@@ -58,12 +59,15 @@ const ProjectReportHero = () => {
               </div> */}
 
               <div className="flex items-center gap-3 pt-2">
-                <button
-                  onClick={() => setIsModalOpen(true)}
-                  className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-all active:scale-95 text-sm"
+                <a
+                  href="https://report-incorp.pigo-pi.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-all active:scale-95 text-sm"
                 >
-                  Get Enquirer Now
-                </button>
+                  <span>Visit Website</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
                 {/* <button className="group flex items-center gap-2 font-bold text-slate-600 dark:text-slate-300 py-3 px-5 rounded-lg border border-slate-200 dark:border-slate-800 text-sm">
                   <span className="material-symbols-outlined text-lg">
                     play_circle
@@ -114,7 +118,7 @@ const ProjectReportHero = () => {
         selectedPlan="Project Report"
       />
     </>
-  )
-}
+  );
+};
 
-export default ProjectReportHero
+export default ProjectReportHero;
