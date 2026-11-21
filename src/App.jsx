@@ -49,6 +49,7 @@ import LogoDesign from "./pages/LogoDesign"
 import GraphicDesign from "./pages/GraphicDesign"
 import TermsAndConditions from "./Components/TermsAndConditionsPage/TermsAndConditions"
 import Pricing from "./pages/Pricing"
+import PaymentStatus from "./pages/PaymentStatus"
 // import { Home } from "lucide-react";
 
 function App() {
@@ -105,6 +106,10 @@ function App() {
         {
           path: "/pricing",
           element: <Pricing />,
+        },
+        {
+          path: "/payment-status",
+          element: <PaymentStatus />,
         },
         {
           path: "/dpiit-registration",
